@@ -1,0 +1,71 @@
+# $schema: "https://json-schema.org/draft/2020-12/schema"
+$id: morph://schemas/mission
+title: Mission
+description: Цель работы с критериями и ограничениями
+
+type: object
+required:
+  - id
+  - goal
+  - success_criteria
+  - risk_tier
+
+properties:
+  id:
+    type: string
+    example: mission-001
+
+  goal:
+    type: string
+    description: Формулировка цели
+
+  success_criteria:
+    type: array
+    items:
+      type: string
+    minItems: 1
+
+  constraints:
+    type: object
+    properties:
+      max_duration:
+        type: string
+      budget_tokens:
+        type: integer
+      other:
+        type: object
+
+  budget:
+    type: object
+    properties:
+      max_cost_usd:
+        type: number
+      max_tokens:
+        type: integer
+
+  risk_tier:
+    type: string
+    enum: [low, medium, high, critical]
+    description: Floor; Director может только повысить
+
+  parent_mission_id:
+    type: string
+    description: Для sub-mission
+
+  workspace_id:
+    type: string
+
+example:
+  id: mission-001
+  goal: "Написать спецификацию Workspace на основе Концепция.md v1"
+  success_criteria:
+    - "ADR согласован"
+    - "Покрыты 4 слоя памяти"
+    - "Есть пример context slice"
+  constraints:
+    max_duration: "2 weeks"
+    budget_tokens: 500000
+  budget:
+    max_cost_usd: 50
+  risk_tier: medium
+  workspace_id: ws-001

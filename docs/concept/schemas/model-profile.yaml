@@ -1,0 +1,80 @@
+# $schema: "https://json-schema.org/draft/2020-12/schema"
+$id: morph://schemas/model-profile
+title: ModelProfile
+description: Профиль LLM в CompetencyRegistry
+
+type: object
+required:
+  - id
+  - resource_type
+  - context_window
+  - relative_reasoning
+
+properties:
+  id:
+    type: string
+
+  name:
+    type: string
+
+  resource_type:
+    const: model
+
+  context_window:
+    type: integer
+
+  cost_per_1k_tokens:
+    type: number
+
+  relative_reasoning:
+    type: number
+    minimum: 0
+    maximum: 1
+
+  strengths:
+    type: array
+    items:
+      type: string
+
+  weaknesses:
+    type: array
+    items:
+      type: string
+
+  domains:
+    type: array
+    items:
+      type: string
+
+  trust_for_risk:
+    type: object
+    properties:
+      low:
+        type: boolean
+      medium:
+        type: boolean
+      high:
+        type: boolean
+      critical:
+        type: boolean
+
+  role:
+    type: string
+    enum: [director, planner, worker, critic, guardian]
+    description: Опциональная привязка к роли
+
+example:
+  id: model-sonnet
+  name: "Claude Sonnet (пример)"
+  resource_type: model
+  context_window: 200000
+  cost_per_1k_tokens: 0.003
+  relative_reasoning: 0.75
+  strengths: [coding, architecture, review]
+  weaknesses: [critical_risk_alone]
+  domains: [software, documentation]
+  trust_for_risk:
+    low: true
+    medium: true
+    high: false
+    critical: false

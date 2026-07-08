@@ -1,0 +1,77 @@
+# $schema: "https://json-schema.org/draft/2020-12/schema"
+$id: morph://schemas/worker
+title: Worker
+description: Временная рабочая единица
+
+type: object
+required:
+  - id
+  - mission_id
+  - task_id
+  - model_id
+  - competency_ids
+  - success_criteria
+
+properties:
+  id:
+    type: string
+
+  mission_id:
+    type: string
+
+  task_id:
+    type: string
+
+  model_id:
+    type: string
+
+  competency_ids:
+    type: array
+    items:
+      type: string
+    minItems: 1
+
+  context_slice_id:
+    type: string
+
+  tools:
+    type: array
+    items:
+      type: string
+
+  success_criteria:
+    type: array
+    items:
+      type: string
+
+  constraints:
+    type: object
+    properties:
+      max_tokens:
+        type: integer
+      timeout:
+        type: string
+
+  status:
+    type: string
+    enum: [pending, running, completed, failed, handed_off]
+
+  created_at:
+    type: string
+    format: date-time
+
+  completed_at:
+    type: string
+    format: date-time
+
+example:
+  id: worker-writer-001
+  mission_id: mission-001
+  task_id: task-draft-adr
+  model_id: model-sonnet
+  competency_ids: [system_design, api_design]
+  context_slice_id: slice-001
+  tools: [schema_validator]
+  success_criteria:
+    - "Черновик ADR покрывает 4 слоя памяти"
+  status: running

@@ -1,0 +1,57 @@
+# $schema: "https://json-schema.org/draft/2020-12/schema"
+$id: morph://schemas/task-profile
+title: TaskProfile
+description: Профиль задачи для sizing и matching (создаётся Director)
+
+type: object
+required:
+  - work_units
+  - competencies
+  - reasoning_need
+  - risk
+
+properties:
+  work_units:
+    type: integer
+    minimum: 1
+
+  competencies:
+    type: array
+    items:
+      type: string
+    minItems: 1
+
+  reasoning_need:
+    type: number
+    minimum: 0
+    maximum: 1
+
+  risk:
+    type: string
+    enum: [low, medium, high, critical]
+
+  context_estimate:
+    type: integer
+    description: Оценка токенов контекста
+
+  parallelizable:
+    type: boolean
+
+  uncertainty:
+    type: number
+    minimum: 0
+    maximum: 1
+    description: Неопределённость формулировки
+
+  mission_id:
+    type: string
+
+example:
+  mission_id: mission-001
+  work_units: 3
+  competencies: [system_design, api_design, technical_review]
+  reasoning_need: 0.7
+  risk: medium
+  context_estimate: 40000
+  parallelizable: false
+  uncertainty: 0.3

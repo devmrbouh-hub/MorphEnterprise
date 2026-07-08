@@ -1,0 +1,110 @@
+# $schema: "https://json-schema.org/draft/2020-12/schema"
+$id: morph://schemas/handoff-record
+title: HandoffRecord
+description: Запись завершения Worker в Workspace (P8)
+
+type: object
+required:
+  - handoff_id
+  - worker_id
+  - task_id
+  - records
+  - status
+
+properties:
+  handoff_id:
+    type: string
+
+  worker_id:
+    type: string
+
+  task_id:
+    type: string
+
+  mission_id:
+    type: string
+
+  timestamp:
+    type: string
+    format: date-time
+
+  records:
+    type: array
+    minItems: 1
+    items:
+      oneOf:
+        - $ref: "#/$defs/decision"
+        - $ref: "#/$defs/lesson"
+        - $ref: "#/$defs/artifact"
+
+  status:
+    type: string
+    enum: [completed, partial, failed]
+
+  qc_result:
+    type: object
+    properties:
+      approved:
+        type: boolean
+      reviewer_worker_id:
+        type: string
+      notes:
+        type: string
+
+$defs:
+  decision:
+    type: object
+    required: [type, id, title, rationale]
+    properties:
+      type:
+        const: decision
+      id:
+        type: string
+      title:
+        type: string
+      rationale:
+        type: string
+      alternatives:
+        type: array
+        items:
+          type: string
+
+  lesson:
+    type: object
+    required: [type, text]
+    properties:
+      type:
+        const: lesson
+      text:
+        type: string
+
+  artifact:
+    type: object
+    required: [type, path]
+    properties:
+      type:
+        const: artifact
+      path:
+        type: string
+      summary:
+        type: string
+      content_ref:
+        type: string
+
+example:
+  handoff_id: handoff-001
+  worker_id: worker-writer-001
+  task_id: task-draft-adr
+  mission_id: mission-001
+  timestamp: "2026-07-09T00:00:00Z"
+  records:
+    - type: artifact
+      path: docs/decisions/ADR-001-workspace-schema.md
+      summary: "Черновик спецификации Workspace"
+    - type: decision
+      id: DEC-001
+      title: "Task graph хранится в Workspace"
+      rationale: "Единый источник правды"
+    - type: lesson
+      text: "Нужен явный slice policy до написания ADR"
+  status: completed

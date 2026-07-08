@@ -1,0 +1,59 @@
+# $schema: "https://json-schema.org/draft/2020-12/schema"
+$id: morph://schemas/workspace-slice
+title: WorkspaceContextSlice
+description: Адресный срез Workspace для Worker или роли
+
+type: object
+required:
+  - worker_id
+  - mission_id
+  - task_id
+  - includes
+
+properties:
+  worker_id:
+    type: string
+
+  mission_id:
+    type: string
+
+  task_id:
+    type: string
+
+  competency_ids:
+    type: array
+    items:
+      type: string
+
+  includes:
+    type: array
+    items:
+      type: string
+    description: "Пути или логические ключи (mission.goal, decisions:relevant)"
+
+  excludes:
+    type: array
+    items:
+      type: string
+
+  max_tokens:
+    type: integer
+
+  authorized_by:
+    type: string
+    enum: [runtime_coordinator, sizing_decision]
+    default: runtime_coordinator
+
+example:
+  worker_id: worker-writer-001
+  mission_id: mission-001
+  task_id: task-draft-adr
+  competency_ids: [system_design, api_design]
+  includes:
+    - mission.goal
+    - mission.success_criteria
+    - artifacts:Концепция.md#6-7
+    - competency_memory:system_design
+  excludes:
+    - full_task_graph
+  max_tokens: 30000

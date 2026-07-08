@@ -1,0 +1,96 @@
+# $schema: "https://json-schema.org/draft/2020-12/schema"
+$id: morph://schemas/sizing-decision
+title: SizingDecision
+description: Параметрическая конфигурация организации — выход Director
+
+type: object
+required:
+  - executor_count
+  - parallelism
+  - planner_depth
+  - discovery_required
+  - qc_depth
+  - confidence
+  - rationale
+
+properties:
+  executor_count:
+    type: integer
+    minimum: 1
+    description: "Непрерывный параметр (первичен)"
+
+  parallelism:
+    type: integer
+    minimum: 1
+
+  planner_depth:
+    type: integer
+    enum: [0, 1, 2]
+    description: "Уровень глубины планирования, не размер компании"
+
+  discovery_required:
+    type: boolean
+
+  qc_depth:
+    type: string
+    enum: ["0", critic, full]
+
+  model_assignments:
+    type: object
+    additionalProperties:
+      type: string
+    description: "role → model_id"
+
+  human_gates:
+    type: array
+    items:
+      type: object
+      properties:
+        after:
+          type: string
+        when:
+          type: string
+
+  estimated_cost:
+    type: object
+    properties:
+      tokens:
+        type: integer
+      usd:
+        type: number
+
+  confidence:
+    type: number
+    minimum: 0
+    maximum: 1
+
+  escalation_policy:
+    type: object
+    properties:
+      on_low_confidence:
+        type: string
+      on_failure:
+        type: string
+
+  rationale:
+    type: string
+
+  mission_id:
+    type: string
+
+  director_model_id:
+    type: string
+
+example:
+  mission_id: mission-001
+  executor_count: 2
+  parallelism: 1
+  planner_depth: 1
+  discovery_required: false
+  qc_depth: critic
+  model_assignments:
+    director: model-sonnet
+    worker_writer: model-sonnet
+    worker_critic: model-haiku
+  confidence: 0.82
+  rationale: "Две компетенции, medium risk, writer + critic"

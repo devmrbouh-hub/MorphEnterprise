@@ -1,0 +1,47 @@
+# $schema: "https://json-schema.org/draft/2020-12/schema"
+$id: morph://schemas/competency
+title: Competency
+description: Навык в CompetencyRegistry (не должность)
+
+type: object
+required:
+  - id
+  - name
+
+properties:
+  id:
+    type: string
+
+  name:
+    type: string
+
+  description:
+    type: string
+
+  required_tools:
+    type: array
+    items:
+      type: string
+
+  memory_namespace:
+    type: string
+    description: Ключ Competency Memory в Workspace
+
+  domains:
+    type: array
+    items:
+      type: string
+
+  min_reasoning:
+    type: number
+    minimum: 0
+    maximum: 1
+
+example:
+  id: api_design
+  name: "Проектирование API"
+  description: "Схемы данных, контракты, REST/gRPC"
+  required_tools: [schema_validator]
+  memory_namespace: competency/api_design
+  domains: [software_architecture]
+  min_reasoning: 0.6
