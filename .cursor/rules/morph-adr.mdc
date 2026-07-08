@@ -1,0 +1,14 @@
+---
+description: Шаблон ADR для docs/decisions
+globs: docs/decisions/**
+alwaysApply: false
+---
+
+# ADR
+
+Формат: **Context → Decision → Consequences → Status**
+
+- Нумерация: `ADR-NNN-short-title.md`
+- Связь со schemas: `docs/concept/schemas/`
+- Статус: proposed | accepted | deprecated
+- После accepted — обновить `docs/ROADMAP.md`

@@ -1,0 +1,29 @@
+---
+description: MorphEnterprise core — язык, термины, ритуал сессии, Phase 0
+alwaysApply: true
+---
+
+# MorphEnterprise — проектные правила
+
+## Язык и термины
+
+- Документация на **русском**
+- **Worker** (не agent/executor), **Director**, **Planner**, **RuntimeCoordinator**
+- Не использовать solo/small/full — только параметры SizingDecision
+
+## Старт сессии
+
+Прочитать `docs/state.md` и `docs/ROADMAP.md` перед существенной работой.
+
+## Финиш сессии (Agent mode)
+
+При изменениях в repo:
+1. Обновить `docs/state.md`
+2. Запись в начало `docs/JOURNAL.md` (дата/время UTC+9)
+3. Git commit
+
+## Scope
+
+- Минимальный diff; не менять несвязанное
+- Архитектура — сверка с `docs/concept/`
+- Phase 0: **без БД**, без кода до ADR-001

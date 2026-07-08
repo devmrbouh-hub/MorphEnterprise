@@ -23,8 +23,10 @@ node_modules/
 .DS_Store
 Thumbs.db
 
-# Local tooling
-.cursor/
+# Local Cursor state (ignore all except project rules)
+.cursor/*
+!.cursor/rules/
+!.cursor/rules/**
 
 # Logs and temp
 *.log

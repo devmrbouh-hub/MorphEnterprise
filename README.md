@@ -30,7 +30,24 @@ docs/concept/
 
 ## Статус
 
-Концепция v2 готова к декомпозиции в ADR и roadmap. Следующий шаг — ADR-001: Workspace spec.
+Концепция v2 готова к декомпозиции в ADR. **Текущее состояние:** [docs/state.md](docs/state.md)
+
+## Для работы с AI
+
+- [AGENTS.md](AGENTS.md) — инструкции для агента в Cursor
+- [docs/ROADMAP.md](docs/ROADMAP.md) — дорожная карта
+- [docs/JOURNAL.md](docs/JOURNAL.md) — журнал изменений
+
+## Phase 0 Workspace
+
+| Файл | Назначение |
+|------|------------|
+| [docs/state.md](docs/state.md) | Где мы сейчас |
+| [docs/competencies.md](docs/competencies.md) | Registry stub |
+| [docs/decisions/](docs/decisions/) | ADR |
+| [docs/concept/lessons.md](docs/concept/lessons.md) | Уроки dogfooding |
+
+Следующий шаг — ADR-001: Workspace spec.
 
 ## Лицензия
 
