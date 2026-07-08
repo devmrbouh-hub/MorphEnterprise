@@ -6,7 +6,7 @@
 
 **Текущая mission:** Настроить Phase 0 Workspace и Cursor; подготовиться к ADR-001 Workspace spec
 
-**Последний коммит:** `8e771bf` — Phase 0 workspace docs and Cursor agent configuration
+**Последний коммит:** `a090da2` — Update state and journal after Phase 0 setup
 
 **Следующий шаг:**
 1. ADR-001: Workspace spec
