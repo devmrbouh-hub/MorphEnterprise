@@ -11,7 +11,7 @@
 | Фаза | Миссия | Статус | Критерий готовности | Артефакт |
 |------|--------|--------|---------------------|----------|
 | **0** | Оформить концепцию v2 + Phase 0 Workspace | done | cross-review пройден | [docs/concept/](concept/00-overview.md) |
-| **0b** | JOURNAL, ROADMAP, AGENTS, Cursor rules | in progress | файлы созданы, commit | AGENTS.md, .cursor/rules/ |
+| **0b** | JOURNAL, ROADMAP, AGENTS, Cursor rules | done | файлы созданы, commit 8e771bf | AGENTS.md, .cursor/rules/ |
 | **1** | Спецификация Workspace | next | ADR согласован, 4 слоя памяти | ADR-001 |
 | **2** | Workspace как код | planned | CRUD mission/decision/slice | код + тесты |
 | **3** | Полуавтоматический Planner | planned | 70% планов с малыми правками | Planner module |
@@ -36,8 +36,8 @@
 
 - [x] Концепция v2
 - [x] Git init
-- [ ] Phase 0 Workspace docs (state, JOURNAL, ROADMAP, competencies, lessons)
-- [ ] AGENTS.md + Cursor rules
+- [x] Phase 0 Workspace docs (state, JOURNAL, ROADMAP, competencies, lessons)
+- [x] AGENTS.md + Cursor rules
 - [ ] ADR-001: Workspace spec (черновик)
 - [ ] GitHub: создать repo и push
 

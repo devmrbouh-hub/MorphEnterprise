@@ -12,7 +12,7 @@
 
 **Файлы** — docs/state.md, docs/ROADMAP.md, docs/JOURNAL.md, docs/competencies.md, docs/concept/lessons.md, docs/decisions/, AGENTS.md, .cursor/rules/
 
-**Коммит** — (текущий коммит)
+**Коммит** — 8e771bf
 
 ---
 

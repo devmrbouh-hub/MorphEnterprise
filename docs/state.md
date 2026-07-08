@@ -6,13 +6,12 @@
 
 **Текущая mission:** Настроить Phase 0 Workspace и Cursor; подготовиться к ADR-001 Workspace spec
 
-**Последний коммит:** `ee9181a` — Add MorphEnterprise concept v2 and initialize repository
+**Последний коммит:** `8e771bf` — Phase 0 workspace docs and Cursor agent configuration
 
 **Следующий шаг:**
-1. Завершить Phase 0 docs (JOURNAL, ROADMAP, AGENTS, rules) — в процессе
-2. Написать ADR-001: Workspace spec
-3. Создать GitHub repo и push (когда пользователь готов)
+1. ADR-001: Workspace spec
+2. Создать GitHub repo и push (когда пользователь готов)
 
 **Блокеры:** нет
 
-**Обновлено:** 2026-07-09 02:52 (UTC+9)
+**Обновлено:** 2026-07-09 02:55 (UTC+9)
