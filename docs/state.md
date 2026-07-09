@@ -10,7 +10,7 @@
 
 **Ветка:** `main`
 
-**Последний коммит:** `4fce02c` — Update state with latest commit hash
+**Последний коммит:** `e7f31d1` — Sync state.md with HEAD after GitHub publishing session
 
 **Следующий шаг:**
 1. ADR-001: Workspace spec (черновик)
