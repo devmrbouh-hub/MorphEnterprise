@@ -12,7 +12,7 @@
 
 **Файлы** — docs/decisions/ADR-001-workspace-spec.md, docs/decisions/README.md, docs/ROADMAP.md, docs/state.md, docs/concept/lessons.md
 
-**Коммит** — _(после push)_
+**Коммит** — 9c9515c
 
 ---
 

@@ -12,7 +12,7 @@
 
 **Точка входа (канон):** [docs/concept/en/00-overview.md](concept/en/00-overview.md)
 
-**Последний коммит:** _(после commit этой сессии)_
+**Последний коммит:** `9c9515c` — Add ADR-001 Workspace spec (proposed).
 
 **Следующий шаг:**
 1. Review ADR-001 ([Issue #2](https://github.com/devmrbouh-hub/MorphEnterprise/issues/2)) → status `accepted`
