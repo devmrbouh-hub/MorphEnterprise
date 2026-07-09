@@ -12,7 +12,7 @@
 
 **Точка входа (канон):** [docs/concept/en/00-overview.md](concept/en/00-overview.md)
 
-**Последний коммит:** (ожидается)
+**Последний коммит:** `59be5f5` — Restructure docs for EN-canonical bilingual specification
 
 **Следующий шаг:**
 1. ADR-001: Workspace spec (черновик, EN)

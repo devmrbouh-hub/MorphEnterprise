@@ -40,7 +40,7 @@
 - [x] AGENTS.md + Cursor rules
 - [x] GitHub: repo — [devmrbouh-hub/MorphEnterprise](https://github.com/devmrbouh-hub/MorphEnterprise)
 - [x] GitHub: первый push (`main`)
-- [ ] EN canonical docs (`docs/concept/en/`, `ru/` migration)
+- [x] EN canonical docs (`docs/concept/en/`, `ru/` migration)
 - [ ] ADR-001: Workspace spec (черновик, EN)
 
 ---
