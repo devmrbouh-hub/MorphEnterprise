@@ -10,7 +10,7 @@
 
 **Ветка:** `main`
 
-**Последний коммит:** `d132a47` — Update project state after GitHub push
+**Последний коммит:** `eb95e1d` — Fix journal commit hash after post-push update
 
 **Следующий шаг:**
 1. ADR-001: Workspace spec (черновик)
