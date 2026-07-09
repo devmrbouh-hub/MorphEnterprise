@@ -4,6 +4,18 @@
 
 ---
 
+## 2026-07-09 13:58 (UTC+9)
+
+**Что сделано** — Первый push на GitHub: `main` → origin, remote настроен
+
+**Зачем** — Публичная публикация концепции v2 и Phase 0 Workspace
+
+**Файлы** — docs/state.md, docs/ROADMAP.md
+
+**Коммит** — (ожидается)
+
+---
+
 ## 2026-07-09 13:55 (UTC+9)
 
 **Что сделано** — Подготовка к публикации на GitHub: LICENSE (Apache 2.0), NOTICE, CONTRIBUTING; обновлены README, ROADMAP, lessons; ветка `main`
@@ -12,7 +24,7 @@
 
 **Файлы** — LICENSE, NOTICE, CONTRIBUTING.md, README.md, docs/ROADMAP.md, docs/concept/lessons.md
 
-**Коммит** — (ожидается)
+**Коммит** — d1b5e52
 
 ---
 

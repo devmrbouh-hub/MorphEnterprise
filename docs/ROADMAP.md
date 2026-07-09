@@ -40,7 +40,7 @@
 - [x] AGENTS.md + Cursor rules
 - [ ] ADR-001: Workspace spec (черновик)
 - [x] GitHub: repo создан — [devmrbouh-hub/MorphEnterprise](https://github.com/devmrbouh-hub/MorphEnterprise)
-- [ ] GitHub: первый push
+- [x] GitHub: первый push (`main`)
 
 ---
 
