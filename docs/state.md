@@ -12,7 +12,7 @@
 
 **Точка входа (канон):** [docs/concept/en/00-overview.md](concept/en/00-overview.md)
 
-**Последний коммит:** `3ebdc8c` — Sync state.md with HEAD.
+**Последний коммит:** `20b4f5b` — Sync state.md with HEAD. (ADR: `9c9515c`)
 
 **Следующий шаг:**
 1. Review ADR-001 ([Issue #2](https://github.com/devmrbouh-hub/MorphEnterprise/issues/2)) → status `accepted`
