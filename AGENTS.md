@@ -81,7 +81,8 @@
 | [docs/ROADMAP.md](docs/ROADMAP.md) | Фазы и ADR |
 | [docs/JOURNAL.md](docs/JOURNAL.md) | Журнал сессий |
 | [docs/competencies.md](docs/competencies.md) | Registry stub |
-| [docs/decisions/](docs/decisions/) | ADR |
+| [docs/decisions/](docs/decisions/) | ADR (канон, EN) |
+| [docs/decisions/ru/](docs/decisions/ru/) | ADR (перевод, RU) |
 | [docs/concept/en/](docs/concept/en/) | Концепция v2 (канон, EN) |
 | [docs/concept/ru/](docs/concept/ru/) | Концепция v2 (полный текст, RU) |
 | [docs/concept/lessons.md](docs/concept/lessons.md) | Уроки dogfooding |

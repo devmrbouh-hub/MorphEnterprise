@@ -1,5 +1,7 @@
 # ADR-001: Workspace spec
 
+> **RU translation (reading):** [ru/ADR-001-workspace-spec.md](ru/ADR-001-workspace-spec.md)
+
 **Status:** proposed  
 **Date:** 2026-07-09
 
@@ -220,4 +222,5 @@ This repository uses MorphEnterprise principles in Phase 0 only. The mapping bel
 - Schemas: [workspace-slice.yaml](../concept/schemas/workspace-slice.yaml), [handoff-record.yaml](../concept/schemas/handoff-record.yaml), [sizing-decision.yaml](../concept/schemas/sizing-decision.yaml), [mission.yaml](../concept/schemas/mission.yaml)
 - Execution layer: [docs/concept/ru/08-execution-layer.md](../concept/ru/08-execution-layer.md)
 - GitHub Issue: [#2 — ADR-001 Workspace spec](https://github.com/devmrbouh-hub/MorphEnterprise/issues/2)
+- RU translation: [ru/ADR-001-workspace-spec.md](ru/ADR-001-workspace-spec.md)
 - Filename note: some concept examples use `ADR-001-workspace-schema.md`; canonical name is **`ADR-001-workspace-spec.md`** (this file)

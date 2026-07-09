@@ -33,7 +33,7 @@ Full glossary: [docs/concept/en/glossary.md](docs/concept/en/glossary.md).
 
 - **Specification changes:** edit **English** first (`docs/concept/en/`).
 - **Russian (`docs/concept/ru/`):** update in the same PR or follow-up Issue «Sync RU translation».
-- **ADR:** English only (`docs/decisions/`).
+- **ADR:** English canonical (`docs/decisions/`); Russian reading copies in `docs/decisions/ru/` (update with EN or follow-up Issue «Sync RU ADR»).
 - **JOURNAL / state:** Russian OK (internal dogfooding).
 
 ## Developer Certificate of Origin (DCO)

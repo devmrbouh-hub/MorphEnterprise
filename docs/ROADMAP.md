@@ -41,7 +41,7 @@
 - [x] GitHub: repo — [devmrbouh-hub/MorphEnterprise](https://github.com/devmrbouh-hub/MorphEnterprise)
 - [x] GitHub: первый push (`main`)
 - [x] EN canonical docs (`docs/concept/en/`, `ru/` migration)
-- [x] ADR-001: Workspace spec (черновик, EN) — [ADR-001-workspace-spec.md](decisions/ADR-001-workspace-spec.md), status proposed
+- [x] ADR-001: Workspace spec (черновик) — [EN](decisions/ADR-001-workspace-spec.md) · [RU](decisions/ru/ADR-001-workspace-spec.md), status proposed
 
 ---
 

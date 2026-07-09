@@ -32,6 +32,7 @@
 
 | Дата | Урок |
 |------|------|
+| 2026-07-09 | ADR: EN канон в `decisions/`, RU для чтения в `decisions/ru/` — как у concept en/ru |
 | 2026-07-09 | Protocol-first ADR отделяет целевую систему от Phase 0 dogfooding (`docs/` + Cursor) |
 | 2026-07-09 | БД на Phase 0 не нужна — markdown + git достаточно для журнала и контекста AI |
 | 2026-07-09 | `.gitignore` для `.cursor/` нужно настроить до коммита rules |

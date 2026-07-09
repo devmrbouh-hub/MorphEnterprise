@@ -88,7 +88,8 @@ docs/concept/
 |------|------------|
 | [docs/state.md](docs/state.md) | Где мы сейчас |
 | [docs/competencies.md](docs/competencies.md) | Registry stub |
-| [docs/decisions/](docs/decisions/) | ADR |
+| [docs/decisions/](docs/decisions/) | ADR (канон, EN) |
+| [docs/decisions/ru/](docs/decisions/ru/) | ADR (перевод, RU) |
 | [docs/concept/lessons.md](docs/concept/lessons.md) | Уроки dogfooding |
 
-Следующий шаг — ADR-001: Workspace spec.
+Следующий шаг — review [ADR-001](docs/decisions/ru/ADR-001-workspace-spec.md) (RU) / [EN](docs/decisions/ADR-001-workspace-spec.md).

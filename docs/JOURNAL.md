@@ -4,6 +4,18 @@
 
 ---
 
+## 2026-07-09 16:05 (UTC+9)
+
+**Что сделано** — RU-перевод ADR-001 (`docs/decisions/ru/`); политика bilingual ADR в README, CONTRIBUTING; ссылки EN↔RU
+
+**Зачем** — Director (человек) читает ADR на русском; EN остаётся каноном для публичной спецификации
+
+**Файлы** — docs/decisions/ru/ADR-001-workspace-spec.md, docs/decisions/README.md, CONTRIBUTING.md, docs/state.md
+
+**Коммит** — _(этот commit)_
+
+---
+
 ## 2026-07-09 15:30 (UTC+9)
 
 **Что сделано** — ADR-001 Workspace spec (EN, proposed): protocol-first WorkspaceStore / SliceResolver / HandoffWriter; workspace profiles; dogfooding appendix

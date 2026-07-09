@@ -1,6 +1,6 @@
 # Architecture Decision Records (ADR)
 
-Folder for architectural decisions. **ADR text is English.**
+Folder for architectural decisions. **ADR canonical text is English** (`docs/decisions/`). **Russian translations** for reading: `docs/decisions/ru/` (same structure, linked from EN).
 
 ---
 
@@ -37,7 +37,7 @@ Pros, cons, what we deferred.
 
 | ID | Topic | Status |
 |----|-------|--------|
-| ADR-001 | [Workspace spec](ADR-001-workspace-spec.md) | proposed |
+| ADR-001 | [Workspace spec](ADR-001-workspace-spec.md) · [RU](ru/ADR-001-workspace-spec.md) | proposed |
 | ADR-002 | Registry spec | planned |
 | ADR-003 | Director/Sizing | planned |
 | ADR-004 | Lifecycle state machine | planned |

@@ -15,9 +15,9 @@
 **Последний коммит:** `20b4f5b` — Sync state.md with HEAD. (ADR: `9c9515c`)
 
 **Следующий шаг:**
-1. Review ADR-001 ([Issue #2](https://github.com/devmrbouh-hub/MorphEnterprise/issues/2)) → status `accepted`
+1. Review ADR-001 ([Issue #2](https://github.com/devmrbouh-hub/MorphEnterprise/issues/2)) → status `accepted` — **читать на русском:** [decisions/ru/ADR-001-workspace-spec.md](decisions/ru/ADR-001-workspace-spec.md)
 2. ADR-002: Registry spec (черновик)
 
 **Блокеры:** нет
 
-**Обновлено:** 2026-07-09 15:30 (UTC+9)
+**Обновлено:** 2026-07-09 16:05 (UTC+9)
