@@ -2,9 +2,9 @@
 
 > Обновляется после каждой сессии работы (Agent mode).
 
-**Текущая фаза:** 0 → 1 (концепция v2 готова, следующий — ADR-001)
+**Текущая фаза:** 1 (ADR-001 draft готов; review → accepted)
 
-**Текущая mission:** ADR-001 Workspace spec (EN)
+**Текущая mission:** Review ADR-001; подготовка ADR-002 Registry
 
 **Remote:** https://github.com/devmrbouh-hub/MorphEnterprise
 
@@ -12,11 +12,12 @@
 
 **Точка входа (канон):** [docs/concept/en/00-overview.md](concept/en/00-overview.md)
 
-**Последний коммит:** `99908a6` — Update state and journal after EN canonical docs migration
+**Последний коммит:** _(после commit этой сессии)_
 
 **Следующий шаг:**
-1. ADR-001: Workspace spec (черновик, EN)
+1. Review ADR-001 ([Issue #2](https://github.com/devmrbouh-hub/MorphEnterprise/issues/2)) → status `accepted`
+2. ADR-002: Registry spec (черновик)
 
 **Блокеры:** нет
 
-**Обновлено:** 2026-07-09 15:00 (UTC+9)
+**Обновлено:** 2026-07-09 15:30 (UTC+9)

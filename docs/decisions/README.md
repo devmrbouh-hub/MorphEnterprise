@@ -37,7 +37,7 @@ Pros, cons, what we deferred.
 
 | ID | Topic | Status |
 |----|-------|--------|
-| ADR-001 | Workspace spec | planned |
+| ADR-001 | [Workspace spec](ADR-001-workspace-spec.md) | proposed |
 | ADR-002 | Registry spec | planned |
 | ADR-003 | Director/Sizing | planned |
 | ADR-004 | Lifecycle state machine | planned |

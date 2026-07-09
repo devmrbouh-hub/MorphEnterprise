@@ -4,6 +4,18 @@
 
 ---
 
+## 2026-07-09 15:30 (UTC+9)
+
+**Что сделано** — ADR-001 Workspace spec (EN, proposed): protocol-first WorkspaceStore / SliceResolver / HandoffWriter; workspace profiles; dogfooding appendix
+
+**Зачем** — Phase 1: формализовать Workspace-протокол без выбора storage; закрыть draft для Issue #2
+
+**Файлы** — docs/decisions/ADR-001-workspace-spec.md, docs/decisions/README.md, docs/ROADMAP.md, docs/state.md, docs/concept/lessons.md
+
+**Коммит** — _(после push)_
+
+---
+
 ## 2026-07-09 15:00 (UTC+9)
 
 **Что сделано** — EN-канон: `docs/concept/en/`; RU в `ru/`; bilingual README; CONTRIBUTING EN-first; GitHub templates; миграция ссылок

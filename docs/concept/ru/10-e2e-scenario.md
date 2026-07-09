@@ -154,7 +154,7 @@ handoff_id: handoff-001
 worker_id: worker-writer-001
 records:
   - type: artifact
-    path: docs/decisions/ADR-001-workspace-schema.md
+    path: docs/decisions/ADR-001-workspace-spec.md
   - type: decision
     id: DEC-001
     title: "Task graph в Workspace"

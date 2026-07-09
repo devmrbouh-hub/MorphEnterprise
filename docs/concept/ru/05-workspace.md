@@ -96,7 +96,7 @@ task_id: task-draft-adr
 timestamp: "2026-07-09T00:00:00Z"
 records:
   - type: artifact
-    path: docs/decisions/ADR-001-workspace-schema.md
+    path: docs/decisions/ADR-001-workspace-spec.md
     summary: "Черновик спецификации Workspace"
   - type: decision
     id: DEC-001

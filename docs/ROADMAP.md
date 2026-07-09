@@ -24,7 +24,7 @@
 
 | ADR | Тема | Источник | Статус |
 |-----|------|----------|--------|
-| ADR-001 | Workspace spec | [05-workspace.md](concept/ru/05-workspace.md) | planned |
+| ADR-001 | Workspace spec | [05-workspace.md](concept/ru/05-workspace.md) | proposed |
 | ADR-002 | Registry spec | [06-registry.md](concept/ru/06-registry.md) | planned |
 | ADR-003 | Director/Sizing | [04-director-sizing.md](concept/ru/04-director-sizing.md) | planned |
 | ADR-004 | Lifecycle state machine | [03-lifecycle.md](concept/ru/03-lifecycle.md) | planned |
@@ -41,13 +41,13 @@
 - [x] GitHub: repo — [devmrbouh-hub/MorphEnterprise](https://github.com/devmrbouh-hub/MorphEnterprise)
 - [x] GitHub: первый push (`main`)
 - [x] EN canonical docs (`docs/concept/en/`, `ru/` migration)
-- [ ] ADR-001: Workspace spec (черновик, EN)
+- [x] ADR-001: Workspace spec (черновик, EN) — [ADR-001-workspace-spec.md](decisions/ADR-001-workspace-spec.md), status proposed
 
 ---
 
 ## Вне scope (пока)
 
-- База данных (решение в ADR-001)
+- Storage backend / database (deferred to Phase 2; ADR-001 is protocol-only)
 - Код Python/TypeScript (Phase 2)
 - CLA (DCO в CONTRIBUTING достаточно на старте)
 - Автономный Director/Planner
