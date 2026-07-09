@@ -12,7 +12,7 @@
 
 **Файлы** — docs/decisions/ru/ADR-001-workspace-spec.md, docs/decisions/README.md, CONTRIBUTING.md, docs/state.md
 
-**Коммит** — _(этот commit)_
+**Коммит** — 474a41a
 
 ---
 
