@@ -8,7 +8,9 @@
 
 Архитектурная концепция автономной агентной организации: не рой агентов, а организация минимально достаточного размера под каждую mission.
 
-**Точка входа:** [docs/concept/00-overview.md](docs/concept/00-overview.md)
+**Точка входа (канон, EN):** [docs/concept/en/00-overview.md](docs/concept/en/00-overview.md)
+
+**Полный текст (RU):** [docs/concept/ru/00-overview.md](docs/concept/ru/00-overview.md)
 
 ---
 
@@ -28,7 +30,7 @@
 | Director, Planner, RuntimeCoordinator | оркестратор (без уточнения) |
 | SizingDecision, Mission, Workspace | solo / small / full org |
 
-Полный глоссарий: [docs/concept/glossary.md](docs/concept/glossary.md)
+Полный глоссарий: [docs/concept/en/glossary.md](docs/concept/en/glossary.md) (канон) · [ru/glossary.md](docs/concept/ru/glossary.md)
 
 ---
 
@@ -45,7 +47,7 @@
 - **P8** — обязательный handoff
 - **P9** — эскалация: модель → организация → человек
 
-Подробно: [docs/concept/01-principles.md](docs/concept/01-principles.md)
+Подробно: [docs/concept/ru/01-principles.md](docs/concept/ru/01-principles.md)
 
 ---
 
@@ -80,7 +82,8 @@
 | [docs/JOURNAL.md](docs/JOURNAL.md) | Журнал сессий |
 | [docs/competencies.md](docs/competencies.md) | Registry stub |
 | [docs/decisions/](docs/decisions/) | ADR |
-| [docs/concept/](docs/concept/) | Концепция v2 |
+| [docs/concept/en/](docs/concept/en/) | Концепция v2 (канон, EN) |
+| [docs/concept/ru/](docs/concept/ru/) | Концепция v2 (полный текст, RU) |
 | [docs/concept/lessons.md](docs/concept/lessons.md) | Уроки dogfooding |
 | [docs/concept/schemas/](docs/concept/schemas/) | YAML-контракты |
 
@@ -90,4 +93,4 @@
 
 Мы строим MorphEnterprise её же принципами: человек = Director, `docs/` = Workspace, Cursor = ExecutionEngine.
 
-См. [docs/concept/09-dogfooding.md](docs/concept/09-dogfooding.md)
+См. [docs/concept/ru/09-dogfooding.md](docs/concept/ru/09-dogfooding.md)

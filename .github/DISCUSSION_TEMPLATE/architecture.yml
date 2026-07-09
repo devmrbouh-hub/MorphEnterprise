@@ -1,0 +1,16 @@
+title: "Architecture: "
+labels:
+  - architecture
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Compare MorphEnterprise with other multi-agent approaches.
+        Canonical overview: [en/00-overview.md](https://github.com/devmrbouh-hub/MorphEnterprise/blob/main/docs/concept/en/00-overview.md)
+  - type: textarea
+    id: comparison
+    attributes:
+      label: Comparison or question
+      description: e.g. How does MorphEnterprise differ from LangGraph for mission-driven workflows?
+    validations:
+      required: true

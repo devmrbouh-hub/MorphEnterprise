@@ -1,6 +1,6 @@
 # Уроки dogfooding
 
-> JOURNAL = «что делали». Этот файл = «что узнали» (гипотезы H0–H5 из [09-dogfooding.md](09-dogfooding.md)).
+> JOURNAL = «что делали». Этот файл = «что узнали» (гипотезы H0–H5 из [ru/09-dogfooding.md](ru/09-dogfooding.md)).
 
 ---
 
@@ -36,3 +36,4 @@
 | 2026-07-09 | `.gitignore` для `.cursor/` нужно настроить до коммита rules |
 | 2026-07-09 | inventory v1 первым спас §8–9 (паттерны) при миграции в v2 |
 | 2026-07-09 | Публичный repo + Apache 2.0 на старте — проще adoption, чем AGPL для будущего кода |
+| 2026-07-09 | EN канон в `docs/concept/en/` + RU в `ru/` — discoverability без полного перевода 01–10 |

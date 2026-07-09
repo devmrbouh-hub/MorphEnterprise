@@ -31,7 +31,7 @@ memory_namespace: competency/api_design
 domains: [software_architecture]
 ```
 
-Схема: [schemas/competency.yaml](schemas/competency.yaml).
+Схема: [../schemas/competency.yaml](../schemas/competency.yaml).
 
 ---
 
@@ -54,7 +54,7 @@ trust_for_risk:
   critical: false
 ```
 
-Схема: [schemas/model-profile.yaml](schemas/model-profile.yaml).
+Схема: [../schemas/model-profile.yaml](../schemas/model-profile.yaml).
 
 Director, Planner и Worker ссылаются на model_id из Registry.
 
@@ -101,7 +101,7 @@ context_estimate: 40000
 parallelizable: false
 ```
 
-Схема: [schemas/task-profile.yaml](schemas/task-profile.yaml).
+Схема: [../schemas/task-profile.yaml](../schemas/task-profile.yaml).
 
 ---
 

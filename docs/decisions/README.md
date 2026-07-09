@@ -1,45 +1,46 @@
 # Architecture Decision Records (ADR)
 
-Папка для архитектурных решений. Шаблон ниже.
+Folder for architectural decisions. **ADR text is English.**
 
 ---
 
-## Шаблон ADR
+## ADR template
 
 ```markdown
-# ADR-NNN: Название
+# ADR-NNN: Title
 
-**Статус:** proposed | accepted | deprecated  
-**Дата:** YYYY-MM-DD
+**Status:** proposed | accepted | deprecated  
+**Date:** YYYY-MM-DD
 
 ## Context
 
-Какая проблема или вопрос.
+What problem or question we address.
 
 ## Decision
 
-Что решили.
+What we decided.
 
 ## Consequences
 
-Плюсы, минусы, что отложили.
+Pros, cons, what we deferred.
 
-## Связи
+## Links
 
-- Концепция: docs/concept/...
+- Concept: docs/concept/en/...
+- Source (RU detail): docs/concept/ru/...
 - Schema: docs/concept/schemas/...
 ```
 
 ---
 
-## Планируемые ADR
+## Planned ADRs
 
-| ID | Тема | Статус |
-|----|------|--------|
+| ID | Topic | Status |
+|----|-------|--------|
 | ADR-001 | Workspace spec | planned |
 | ADR-002 | Registry spec | planned |
 | ADR-003 | Director/Sizing | planned |
 | ADR-004 | Lifecycle state machine | planned |
 | ADR-005 | Runtime coordination | planned |
 
-См. [ROADMAP.md](../ROADMAP.md).
+See [ROADMAP.md](../ROADMAP.md).

@@ -1,50 +1,63 @@
-# Участие в MorphEnterprise
+# Contributing to MorphEnterprise
 
-Спасибо за интерес к проекту. Документация и обсуждения ведутся на **русском языке**.
+Thank you for your interest. Public specification is **English-first**; detailed Russian chapters live in `docs/concept/ru/`.
 
-## Как предложить изменение
+## How to propose a change
 
-1. Откройте **Issue** — опишите проблему или идею.
-2. Дождитесь краткого обсуждения (для нетривиальных изменений).
-3. Создайте **Pull Request** с понятным описанием и ссылкой на Issue.
+1. Open an **Issue** — describe the problem or idea.
+2. Wait for brief discussion (for non-trivial changes).
+3. Open a **Pull Request** with a clear description and link to the Issue.
 
-Для мелких правок (опечатки, формулировки) Issue можно пропустить.
+Small fixes (typos, wording) may skip the Issue step.
 
-## Терминология
+## Terminology
 
-Проект использует терминологию **концепции v2**. Обязательно:
+The project uses **concept v2** terms:
 
-| Использовать | Не использовать |
-|--------------|-----------------|
+| Use | Don't use |
+|-----|-----------|
 | Worker | agent, executor |
-| Director, Planner, RuntimeCoordinator | оркестратор (без уточнения) |
+| Director, Planner, RuntimeCoordinator | orchestrator (unqualified) |
 | SizingDecision, Mission, Workspace | solo / small / full org |
 
-Полный глоссарий: [docs/concept/glossary.md](docs/concept/glossary.md).
+Full glossary: [docs/concept/en/glossary.md](docs/concept/en/glossary.md).
 
-## Куда смотреть
+## Where to look
 
-- [docs/ROADMAP.md](docs/ROADMAP.md) — фазы и ближайшие задачи
-- [docs/state.md](docs/state.md) — текущее состояние
-- [docs/concept/00-overview.md](docs/concept/00-overview.md) — архитектура v2
-- [AGENTS.md](AGENTS.md) — правила для AI-агентов в Cursor
+- [docs/concept/en/00-overview.md](docs/concept/en/00-overview.md) — architecture v2 (canonical)
+- [docs/ROADMAP.md](docs/ROADMAP.md) — phases and near-term tasks
+- [docs/state.md](docs/state.md) — current status (Russian)
+- [AGENTS.md](AGENTS.md) — Cursor agent rules (Russian)
+
+## Language policy
+
+- **Specification changes:** edit **English** first (`docs/concept/en/`).
+- **Russian (`docs/concept/ru/`):** update in the same PR or follow-up Issue «Sync RU translation».
+- **ADR:** English only (`docs/decisions/`).
+- **JOURNAL / state:** Russian OK (internal dogfooding).
 
 ## Developer Certificate of Origin (DCO)
 
-Делая Pull Request, вы подтверждаете, что:
+By submitting a Pull Request, you confirm that:
 
-- имеете право на предлагаемый вклад;
-- вклад распространяется под [Apache License 2.0](LICENSE);
-- вы согласны с условиями лицензии.
+- you have the right to submit the contribution;
+- the contribution is licensed under [Apache License 2.0](LICENSE);
+- you agree to the license terms.
 
-При желании добавьте в конец описания PR или в коммит:
+Optionally add to the PR description or commit:
 
 ```
 Signed-off-by: Your Name <your.email@example.com>
 ```
 
-CLA (Contributor License Agreement) на старте проекта **не требуется**.
+A CLA is **not** required at this stage.
 
-## Лицензия
+## License
 
-Внося вклад, вы соглашаетесь, что он будет лицензирован под Apache 2.0 вместе с остальным репозиторием.
+By contributing, you agree that your contribution will be licensed under Apache 2.0 together with the rest of the repository.
+
+---
+
+## По-русски
+
+Внутренние заметки (`docs/state.md`, `docs/JOURNAL.md`) и полные главы концепции — на русском в `docs/concept/ru/`. Канон публичной спецификации — английский в `docs/concept/en/`.

@@ -89,7 +89,7 @@ Director сам является **записью в CompetencyRegistry** (Model
 
 ## 4.4. SizingDecision
 
-Выход Director. Схема: [schemas/sizing-decision.yaml](schemas/sizing-decision.yaml).
+Выход Director. Схема: [../schemas/sizing-decision.yaml](../schemas/sizing-decision.yaml).
 
 ```yaml
 # Непрерывные параметры (первичны)

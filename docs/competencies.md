@@ -1,6 +1,6 @@
 # Competency Registry (Phase 0 stub)
 
-Минимальный каталог возможностей. Полная спецификация — [06-registry.md](concept/06-registry.md).  
+Минимальный каталог возможностей. Полная спецификация — [06-registry.md](concept/ru/06-registry.md).  
 Схемы: [schemas/competency.yaml](concept/schemas/competency.yaml), [schemas/model-profile.yaml](concept/schemas/model-profile.yaml).
 
 ---

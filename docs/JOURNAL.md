@@ -4,6 +4,18 @@
 
 ---
 
+## 2026-07-09 15:00 (UTC+9)
+
+**Что сделано** — EN-канон: `docs/concept/en/`; RU в `ru/`; bilingual README; CONTRIBUTING EN-first; GitHub templates; миграция ссылок
+
+**Зачем** — Discoverability для англоязычной аудитории при сохранении RU dogfooding
+
+**Файлы** — docs/concept/en/, docs/concept/ru/, README.md, CONTRIBUTING.md, AGENTS.md, .github/, docs/ROADMAP.md, docs/state.md
+
+**Коммит** — (ожидается)
+
+---
+
 ## 2026-07-09 13:58 (UTC+9)
 
 **Что сделано** — Первый push на GitHub: `main` → origin, remote настроен

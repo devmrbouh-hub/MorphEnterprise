@@ -4,17 +4,19 @@
 
 **Текущая фаза:** 0 → 1 (концепция v2 готова, следующий — ADR-001)
 
-**Текущая mission:** ADR-001 Workspace spec
+**Текущая mission:** ADR-001 Workspace spec (EN)
 
 **Remote:** https://github.com/devmrbouh-hub/MorphEnterprise
 
 **Ветка:** `main`
 
-**Последний коммит:** `e7f31d1` — Sync state.md with HEAD after GitHub publishing session
+**Точка входа (канон):** [docs/concept/en/00-overview.md](concept/en/00-overview.md)
+
+**Последний коммит:** (ожидается)
 
 **Следующий шаг:**
-1. ADR-001: Workspace spec (черновик)
+1. ADR-001: Workspace spec (черновик, EN)
 
 **Блокеры:** нет
 
-**Обновлено:** 2026-07-09 13:58 (UTC+9)
+**Обновлено:** 2026-07-09 15:00 (UTC+9)

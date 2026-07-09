@@ -7,6 +7,6 @@ alwaysApply: false
 # Концепция v2
 
 - Не ломать согласованность между prose и `docs/concept/schemas/`
-- При изменении архитектуры — проверить [10-e2e-scenario.md](docs/concept/10-e2e-scenario.md)
+- При изменении архитектуры — проверить [10-e2e-scenario.md](docs/concept/ru/10-e2e-scenario.md)
 - Mermaid и YAML — по образцу существующих файлов
-- Термины — только из [glossary.md](docs/concept/glossary.md)
+- Термины — только из [glossary.md](docs/concept/en/glossary.md); правки спеки — сначала `docs/concept/en/`
