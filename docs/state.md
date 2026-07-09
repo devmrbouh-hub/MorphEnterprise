@@ -10,7 +10,7 @@
 
 **Ветка:** `main`
 
-**Последний коммит:** `d1b5e52` — Add Apache 2.0 license and GitHub publishing docs
+**Последний коммит:** `d132a47` — Update project state after GitHub push
 
 **Следующий шаг:**
 1. ADR-001: Workspace spec (черновик)
