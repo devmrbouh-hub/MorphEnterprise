@@ -39,7 +39,8 @@
 - [x] Phase 0 Workspace docs (state, JOURNAL, ROADMAP, competencies, lessons)
 - [x] AGENTS.md + Cursor rules
 - [ ] ADR-001: Workspace spec (черновик)
-- [ ] GitHub: создать repo и push
+- [x] GitHub: repo создан — [devmrbouh-hub/MorphEnterprise](https://github.com/devmrbouh-hub/MorphEnterprise)
+- [ ] GitHub: первый push
 
 ---
 
@@ -47,5 +48,5 @@
 
 - База данных (решение в ADR-001)
 - Код Python/TypeScript (Phase 2)
-- LICENSE, CONTRIBUTING, CLA (до публичного GitHub)
+- CLA (DCO в CONTRIBUTING достаточно на старте)
 - Автономный Director/Planner

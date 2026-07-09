@@ -4,6 +4,18 @@
 
 ---
 
+## 2026-07-09 13:55 (UTC+9)
+
+**Что сделано** — Подготовка к публикации на GitHub: LICENSE (Apache 2.0), NOTICE, CONTRIBUTING; обновлены README, ROADMAP, lessons; ветка `main`
+
+**Зачем** — Публичный репозиторий с явным авторством и правилами контрибьюта перед первым push
+
+**Файлы** — LICENSE, NOTICE, CONTRIBUTING.md, README.md, docs/ROADMAP.md, docs/concept/lessons.md
+
+**Коммит** — (ожидается)
+
+---
+
 ## 2026-07-09 02:52 (UTC+9)
 
 **Что сделано** — Phase 0 Workspace: state, ROADMAP, JOURNAL, competencies, lessons, decisions; AGENTS.md; Cursor rules

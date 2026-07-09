@@ -32,6 +32,22 @@ docs/concept/
 
 Концепция v2 готова к декомпозиции в ADR. **Текущее состояние:** [docs/state.md](docs/state.md)
 
+## Репозиторий
+
+https://github.com/devmrbouh-hub/MorphEnterprise
+
+## Автор
+
+Machnev Andrei Sergeevich ([devmrbouh-hub](https://github.com/devmrbouh-hub))
+
+## Contributing
+
+См. [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Лицензия
+
+[Apache License 2.0](LICENSE)
+
 ## Для работы с AI
 
 - [AGENTS.md](AGENTS.md) — инструкции для агента в Cursor
@@ -48,7 +64,3 @@ docs/concept/
 | [docs/concept/lessons.md](docs/concept/lessons.md) | Уроки dogfooding |
 
 Следующий шаг — ADR-001: Workspace spec.
-
-## Лицензия
-
-TBD.
