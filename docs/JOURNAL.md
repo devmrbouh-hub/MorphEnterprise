@@ -12,7 +12,7 @@
 
 **Файлы** — docs/references/**, .cursor/rules/morph-references.mdc, AGENTS.md, docs/concept/README.md, docs/decisions/README.md, docs/state.md
 
-**Коммит** — _(pending)_
+**Коммит** — 8bbed95
 
 ---
 
