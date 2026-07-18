@@ -12,7 +12,7 @@
 
 **Точка входа (канон):** [docs/concept/en/00-overview.md](concept/en/00-overview.md)
 
-**Последний коммит:** `8afabbf` — docs: update state and journal after references layer (refs: `8bbed95`)
+**Последний коммит:** `6d52980` — docs: references layer + state/journal (основной: `8bbed95`)
 
 **Следующий шаг:**
 1. Review ADR-001 ([Issue #2](https://github.com/devmrbouh-hub/MorphEnterprise/issues/2)) → status `accepted`
