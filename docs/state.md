@@ -4,7 +4,7 @@
 
 **Текущая фаза:** 1 (ADR-001 draft готов; review → accepted)
 
-**Текущая mission:** Review ADR-001; подготовка ADR-002 Registry
+**Текущая mission:** Review ADR-001; подготовка ADR-002 Registry (research backlog в `docs/references/`)
 
 **Remote:** https://github.com/devmrbouh-hub/MorphEnterprise
 
@@ -12,12 +12,13 @@
 
 **Точка входа (канон):** [docs/concept/en/00-overview.md](concept/en/00-overview.md)
 
-**Последний коммит:** `917a5fa` — Update state and journal after RU ADR translation. (ADR RU: `474a41a`)
+**Последний коммит:** _(после коммита этой сессии)_
 
 **Следующий шаг:**
-1. Review ADR-001 ([Issue #2](https://github.com/devmrbouh-hub/MorphEnterprise/issues/2)) → status `accepted` — **читать на русском:** [decisions/ru/ADR-001-workspace-spec.md](decisions/ru/ADR-001-workspace-spec.md)
-2. ADR-002: Registry spec (черновик)
+1. Review ADR-001 ([Issue #2](https://github.com/devmrbouh-hub/MorphEnterprise/issues/2)) → status `accepted`
+2. ADR-002: Registry spec — учесть [backlog](references/backlog.md) (skill-bundle, Curator)
+3. Исследования: [docs/references/README.md](references/README.md)
 
 **Блокеры:** нет
 
-**Обновлено:** 2026-07-09 16:05 (UTC+9)
+**Обновлено:** 2026-07-18 18:20 (UTC+9)

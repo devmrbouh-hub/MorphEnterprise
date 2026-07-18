@@ -87,6 +87,7 @@
 | [docs/concept/ru/](docs/concept/ru/) | Концепция v2 (полный текст, RU) |
 | [docs/concept/lessons.md](docs/concept/lessons.md) | Уроки dogfooding |
 | [docs/concept/schemas/](docs/concept/schemas/) | YAML-контракты |
+| [docs/references/](docs/references/) | Внешние исследования (не канон); см. [README](docs/references/README.md) |
 
 ---
 

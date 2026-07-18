@@ -4,7 +4,17 @@
 
 ---
 
-## 2026-07-09 16:05 (UTC+9)
+## 2026-07-18 18:20 (UTC+9)
+
+**Что сделано** — слой `docs/references/`: README, шаблон, backlog, sources/landscapes/comparisons; конспект Крестникова, landscape мультиагентности 2026, comparison vs MorphEnterprise; morph-references.mdc; ссылки в AGENTS, concept/README, decisions/README
+
+**Зачем** — оформить внешние исследования (Knowledge layer) и путь идея → backlog → ADR без смешения с каноном concept
+
+**Файлы** — docs/references/**, .cursor/rules/morph-references.mdc, AGENTS.md, docs/concept/README.md, docs/decisions/README.md, docs/state.md
+
+**Коммит** — _(pending)_
+
+---
 
 **Что сделано** — RU-перевод ADR-001 (`docs/decisions/ru/`); политика bilingual ADR в README, CONTRIBUTING; ссылки EN↔RU
 

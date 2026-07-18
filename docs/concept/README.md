@@ -10,3 +10,4 @@
 | [ru/](ru/) | Russian | Full detail chapters 01–10 |
 | [schemas/](schemas/) | neutral | YAML contracts |
 | [lessons.md](lessons.md) | Russian | Dogfooding lessons |
+| [../references/](../references/) | Russian | External research (Knowledge layer; non-normative) |

@@ -1,0 +1,38 @@
+---
+description: Правила для docs/references — внешние исследования
+globs: docs/references/**
+alwaysApply: false
+---
+
+# References (внешние исследования)
+
+## Роль
+
+`docs/references/` — слой **Knowledge** (Phase 0), не канон. Нормативная спека — `docs/concept/` и `docs/decisions/`.
+
+## Типы
+
+| Тип | Папка | Содержание |
+|-----|-------|------------|
+| `source` | `sources/` | Нейтральный конспект чужой работы; **без** action items |
+| `landscape` | `landscapes/` | Синтез по теме; каталог URL + ref-id |
+| `comparison` | `comparisons/` | Наша оценка ↔ P0–P9, ADR |
+
+## Frontmatter
+
+Каждый файл — YAML frontmatter с полями `id`, `type`, `status`, `urls`, `morph_takeaway`. Шаблон: `docs/references/_template.md`.
+
+Стабильный ID: `ref-YYYY-slug`. Не менять после создания.
+
+## Workflow
+
+1. Идея из ref → `comparisons/` (если влияет на дизайн)
+2. Action items → `backlog.md`
+3. Протокол → ADR (`## Research` с ref-id)
+4. После dogfooding → `concept/lessons.md`
+
+**Запрет:** переносить чужие идеи в `docs/concept/` без comparison + ADR.
+
+## Каталог
+
+При добавлении записи — обновить таблицу в `docs/references/README.md`.

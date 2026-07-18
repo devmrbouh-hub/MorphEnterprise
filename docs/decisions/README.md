@@ -24,11 +24,18 @@ What we decided.
 
 Pros, cons, what we deferred.
 
+## Research
+
+External sources that informed this decision (non-normative):
+
+- ref:ref-YYYY-slug — [title](../references/sources/....md)
+
 ## Links
 
 - Concept: docs/concept/en/...
 - Source (RU detail): docs/concept/ru/...
 - Schema: docs/concept/schemas/...
+- Research: docs/references/ (see [README](../references/README.md))
 ```
 
 ---

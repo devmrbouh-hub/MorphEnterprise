@@ -27,3 +27,4 @@ alwaysApply: true
 - Минимальный diff; не менять несвязанное
 - Архитектура — сверка с `docs/concept/`
 - Phase 0: **без БД**, без кода до ADR-001
+- Внешние исследования — `docs/references/`; не менять `docs/concept/` без ADR
