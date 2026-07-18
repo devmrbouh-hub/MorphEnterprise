@@ -12,7 +12,7 @@
 
 **Точка входа (канон):** [docs/concept/en/00-overview.md](concept/en/00-overview.md)
 
-**Последний коммит:** `8bbed95` — docs: references layer for external research (Knowledge Phase 0)
+**Последний коммит:** `8afabbf` — docs: update state and journal after references layer (refs: `8bbed95`)
 
 **Следующий шаг:**
 1. Review ADR-001 ([Issue #2](https://github.com/devmrbouh-hub/MorphEnterprise/issues/2)) → status `accepted`
